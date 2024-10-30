@@ -32,7 +32,7 @@ console.log(number)
     res.json({ message: msg });
   } catch (error) {
     console.log(error)
-    res.status(500).json({ error: "An error occurred while sending the SMS." });
+    res.status(500).json({ error: "An error occurred while sending the SMS" });
   }
 });
 
